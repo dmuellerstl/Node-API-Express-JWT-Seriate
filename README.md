@@ -31,6 +31,9 @@ After a lot of research and testing, I present you with... da-dada-da: A Node.js
 * Create controllers and move various logic out of the routes
 * Demonstrate PUT and other common API functions besides GET
 
+### Author Note:
+This project was built to demonstrate Node.js connectivity to an MS SQL database using Seriate. After looking into several options for SQL interaction within a Node.js environment, I chose Seriate for its simple implementation and native SQL query support. Please see this post for more information: http://developer.leankit.com/painless-sql-server-with-nodejs-and-seriate/
 
+While NoSQL databases such as MongoDB are the trend in tutorials building out application interfaces such as this, many such systems implemented in existing business environments simply can't do away with MS SQL.
 
 
