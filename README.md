@@ -1,5 +1,5 @@
-# Node-API-Express-Passport-Seriate
-After a lot of research and testing, I present you with... da-dada-da: A Node.js, Express API with Passport for JWT Token Authentication and Seriate for MS SQL Database Integration
+# Node-API-Express-JWT-Seriate
+After a lot of research and testing, I present you with... da-dada-da: A Node.js, Express API with JWT Token Authentication and Seriate for MS SQL Database Integration
 
 # Dependencies
 * MS SQL Server (2014 Exrpess was used)
