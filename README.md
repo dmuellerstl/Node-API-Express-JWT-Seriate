@@ -2,7 +2,14 @@
 After a lot of research and testing, I present you with... da-dada-da: A Node.js, Express API with Passport for JWT Token Authentication and Seriate for MS SQL Database Integration
 
 # Dependencies
-See packages.json
+* MS SQL Server (2014 Exrpess was used)
+* "app-root-dir": "^1.0.2"
+* "body-parser": "^1.15.2"
+* "express": "^4.14.0"
+* "gulp": "^3.9.1"
+* "gulp-nodemon": "^2.2.1"
+* "jsonwebtoken": "^7.1.9"
+* "seriate": "^0.8.0"
 
 # Setup
 * Clone the repository
@@ -17,6 +24,12 @@ See packages.json
 * You should receive a token back in the response. Copy the token value and use it in subsequent API requests
 * **GET** to _http://localhost:3000/api/users_
 * Send Header with **Key:** _x-access-token_ and **Value:**_<token>_ (Copied from authentication response)
+
+# Roadmap
+* Authenticate Users against database instead of hard coded user account in app/user.js
+* Create controllers and move various logic out of the routes
+* Demonstrate PUT and other common API functions besides GET
+* Build out various other features like password hashing, etc.
 
 
 
