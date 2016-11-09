@@ -1,7 +1,7 @@
 # Node-API-Express-JWT-Seriate
 After a lot of research and testing, I present you with... da-dada-da: A Node.js, Express API with JWT Token Authentication and Seriate for MS SQL Database Integration
 
-# Dependencies
+## Dependencies
 * MS SQL Server (2014 Exrpess was used)
 * "app-root-dir": "^1.0.2"
 * "body-parser": "^1.15.2"
@@ -11,12 +11,12 @@ After a lot of research and testing, I present you with... da-dada-da: A Node.js
 * "jsonwebtoken": "^7.1.9"
 * "seriate": "^0.8.0"
 
-# Setup
+## Setup
 * Clone the repository
 * Navigate to the repository and run npm install
 * Use the nodeapi.sql create script to create the SQL database
 
-# API Usage
+## API Usage
 * Run the API with node app.js or gulp from the repository root
 * To obtain a token, **POST** to _http://localhost:3000/authenticate_
 * Send Header with **Key:** _Content-Type_ and **Value:** _application/x-www-form-urlencoded_ 
@@ -25,7 +25,7 @@ After a lot of research and testing, I present you with... da-dada-da: A Node.js
 * **GET** to _http://localhost:3000/api/users_
 * Send Header with **Key:** _x-access-token_ and **Value:**_<token>_ (Copied from authentication response)
 
-# Roadmap
+## Roadmap
 * Create user registration API endpoint with password hashing
 * Authenticate Users against database instead of hard coded user account in app/user.js
 * Create controllers and move various logic out of the routes
