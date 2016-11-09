@@ -26,10 +26,11 @@ After a lot of research and testing, I present you with... da-dada-da: A Node.js
 * Send Header with **Key:** _x-access-token_ and **Value:**_<token>_ (Copied from authentication response)
 
 # Roadmap
+* Create user registration API endpoint with password hashing
 * Authenticate Users against database instead of hard coded user account in app/user.js
 * Create controllers and move various logic out of the routes
 * Demonstrate PUT and other common API functions besides GET
-* Build out various other features like password hashing, etc.
+
 
 
 
