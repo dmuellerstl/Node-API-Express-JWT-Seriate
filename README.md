@@ -13,7 +13,7 @@ After a lot of research and testing, I present you with... da-dada-da: A Node.js
 
 # Setup
 * Clone the repository
-* Navigate to the repository and run npm init
+* Navigate to the repository and run npm install
 * Use the nodeapi.sql create script to create the SQL database
 
 # API Usage
