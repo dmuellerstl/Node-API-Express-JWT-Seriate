@@ -1,0 +1,3 @@
+Coming Soon...
+
+Controller functionality will contain logic currently in the routes
